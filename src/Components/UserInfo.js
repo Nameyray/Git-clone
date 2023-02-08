@@ -1,9 +1,10 @@
 import React from 'react'
 import './../App.css';
+import profile from '../assets/profile.jpg';
 const UserInfo = () => (
   <div className='user'>
-    <img src="" alt="logo.svg" class="avatar"
-     width="130" height= "130"
+    <img src={profile} alt="" 
+     width="140" height= "140"
     />
 
     <div className='info'>
