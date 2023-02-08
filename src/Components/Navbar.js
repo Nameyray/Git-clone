@@ -9,10 +9,7 @@ const Navbar = ()=> (
     <a href="#about">Users</a>
     <a href="Repositories.html">Repositories</a>
 
-    <form action="/action_page.php">
-        <input type="text" placeholder="Search.." name="search"></input>
-        <button type="submit"><i class="fa fa-search"></i>Submit</button>
-      </form>
+   
     </div> 
 )
    

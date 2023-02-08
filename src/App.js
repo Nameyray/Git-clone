@@ -1,14 +1,17 @@
 import React from 'react';
 import './App.css';
-import UserPage from './Container/UserPage';
+import UserInfo from './Components/UserInfo';
 import Navbar from './Components/Navbar';
+import Search from './Components/Search'
 
 function App() {
   return (
     <div className="App">
-    
-     <UserPage />
      <Navbar />
+     <Search />
+     <UserInfo />
+    
+    
     </div>
   );
 }
