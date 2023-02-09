@@ -9,8 +9,10 @@ const UserInfo = () => (
 
     <div className='info'>
       <h5 id="h3">userName</h5>
+      </div>
 
-     <div class="span">
+    <div className='span1'>
+    <div class="span">
       <i className='fa fa-map-marker pr-1'/>
       <span> Location .</span>
     </div>
@@ -29,6 +31,7 @@ const UserInfo = () => (
       <i className='fa fa-heart pr-1'/>
       <span> Following</span>
     </div>
+   
     </div>
     
   </div>

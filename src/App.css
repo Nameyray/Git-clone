@@ -85,6 +85,76 @@ body {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-.user img > {
+.info{
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+img {
   border-radius: 50%;
+  
+}
+.span1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center ;
+ 
+}
+.span{
+  font-size: 15px;
+  color: black;
+  margin-right: 18px;
+
+}
+
+.repo{
+  width: 40%;
+  border: solid 1px #0f926d;
+  background-color: grey;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:  transform 2s ease-in;
+
+}
+.repo :hover{
+ background: green;
+}
+.title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  line-height: 1.5rem;
+  max-height: 1.5rem;
+}
+.title > span{
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+.info{
+  font-size: 14px;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 1.5rem;
+  max-height: 3rem;
+
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-right: 10px;
 }

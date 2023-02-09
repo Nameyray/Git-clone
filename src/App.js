@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import UserInfo from './Components/UserInfo';
 import Navbar from './Components/Navbar';
-import Search from './Components/Search'
+import Search from './Components/Search';
+import Repository from './Components/Repository';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <Navbar />
      <Search />
      <UserInfo />
+     <Repository />
     
     
     </div>
