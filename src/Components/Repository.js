@@ -7,7 +7,7 @@ const Repository = () => (
     <div>
     <div className='title'>
       <i className='fa fa-book pr-1' />
-      <a href='#'> <span>Repo Name</span></a>
+      <a href='Search'> <span>Repo Name</span></a>
     </div>
     <span className='desc'>Description</span>
     
