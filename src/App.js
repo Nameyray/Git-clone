@@ -4,32 +4,24 @@ import './App.css';
 // import Search from './Components/Search';
 // import UserInfo from './Components/UserInfo';
 // import Repository from './Components/Repositories';
-// import { BrowserRouter } from 'react-router-dom';
-// import { BrowserRouter as Switch, Route, Navigate} from 'react-router-dom';
-// import UserPage from '../src/Components/UserPage'
+import {  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link} from "react-router-dom";
+
 import UserPage from './Components/UserPage';
 
 function App() {
+  // const username = prompt("Enter Github Username");
   return (
-    <div className='app'>
-      <UserPage />
-    </div>
-    // <BrowserRouter>
-
-    // <Switch>
-    //   <Route path = "/:userName" component = {UserPage } /> 
-    //    <Navigate to = {'/Nameyray'} />
-   
-    // </Switch>
-     
-    // </BrowserRouter>
     
-  
-  
-    
-    
-    
-  
+      
+    <Router>
+      <Routes>
+        <Route path="/" element={<UserPage />} />
+        <Route path ={"/Nameyray"} />
+      </Routes>
+    </Router>
   );
 }
 

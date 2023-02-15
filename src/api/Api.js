@@ -4,7 +4,7 @@ const URL_BASE = "https://api.github.com"
 
 //user Name
 export async function getUserData(userName){
-  const userInfo = await axios.get('$("URL_BASE")/user/${userName}')
+  const userInfo = await axios.get(`$("URL_BASE")/user/${userName}`)
 
   console.log(userInfo)
 
@@ -13,7 +13,7 @@ export async function getUserData(userName){
 
 //Repos
 export async function getUserRepos(userName){
-  const repos = await axios.get('$("URL_BASE")/user/${userName}/repos')
+  const repos = await axios.get(`$("URL_BASE")/user/${userName}/repos`)
 
   console.log(repos)
   
